@@ -12,7 +12,6 @@ namespace Shakuchi.HelloWord
         {
             Console.ForegroundColor = ConsoleColor.Green;
 
-
             Console.WriteLine("Hello, C#!");
             Console.ReadKey();
             Console.Clear();
