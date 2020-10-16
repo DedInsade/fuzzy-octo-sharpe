@@ -10,8 +10,25 @@ namespace Shakuchi.HelloWord
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, C#");
-            Console.ReadLine();
-        }
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Green;
+
+
+            Console.WriteLine("Hello, C#!");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("Wake up, Neo ...");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("Follow to white rabbit ...");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("See you next time, User");
+            Console.ReadKey();
+            Console.Clear();
+        }        
     }
 }
