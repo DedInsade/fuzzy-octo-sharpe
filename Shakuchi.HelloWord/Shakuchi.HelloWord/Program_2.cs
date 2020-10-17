@@ -14,10 +14,12 @@ namespace Shakuchi.HelloWord
             string User = "username";
 
             Console.WriteLine(i);
+            Console.WriteLine("i is {0}", i.GetType());
             Console.ReadKey();
             Console.Clear();
 
             Console.WriteLine(User);
+            Console.WriteLine("User is {0}", User.GetType());
             Console.ReadKey();
             Console.Clear();
         }        
