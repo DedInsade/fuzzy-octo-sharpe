@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace Shakuchi.HelloWord
 {
     class Program
-    {
+    {               
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-
+            
             Console.WriteLine("Hello, C#!");
             Console.ReadKey();
             Console.Clear();

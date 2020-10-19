@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shakuchi.HelloWord
 {
-    class Program_2
+    class Program_3
     {
         static void Main(string[] args)
         {
